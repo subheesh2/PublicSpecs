@@ -12,7 +12,7 @@ DESC
   s.source       = { :git => "https://github.com/iziz/libPhoneNumber-iOS.git", :tag => '1.1' }
   s.libraries 	 = 'z'
   s.ios.framework    = 'Contacts'
-  s.ios.deployment_target = "13.0"
+  s.ios.deployment_target = "12.0"
   s.requires_arc = true
   s.private_header_files = 'libPhoneNumber/NBGeneratedPhoneNumberMetaData.h'
   s.source_files = 'libPhoneNumber/NBPhoneNumberDefines.{h,m}', 'libPhoneNumber/NBPhoneNumber.{h,m}', 'libPhoneNumber/NBNumberFormat.{h,m}', 'libPhoneNumber/NBPhoneNumberDesc.{h,m}', 'libPhoneNumber/NBPhoneMetaData.{h,m}', 'libPhoneNumber/NBPhoneNumberUtil.{h,m}', 'libPhoneNumber/NBMetadataHelper.{h,m}', 'libPhoneNumber/NBAsYouTypeFormatter.{h,m}', 'libPhoneNumber/NSArray+NBAdditions.{h,m}', 'libPhoneNumber/NBGeneratedPhoneNumberMetaData.h', 'libPhoneNumber/Internal/NBRegExMatcher.{h,m}', 'libPhoneNumber/Internal/NBRegularExpressionCache.{h,m}'
