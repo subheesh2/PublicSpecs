@@ -11,7 +11,7 @@ DESC
   s.authors      = { "rastaarh" => "rastaar@google.com", "paween" => "paween@google.com"}
   s.source       = { :git => "https://github.com/iziz/libPhoneNumber-iOS.git", :tag => '1.1' }
   s.libraries      = 'z'
-  s.ios.deployment_target = "13.0"
+  s.ios.deployment_target = "12.0"
   s.requires_arc = true
   s.private_header_files = 'libPhoneNumberShortNumber/NBGeneratedShortNumberMetadata.h'
   s.dependency 'libPhoneNumber-iOS', '1.0.4'
